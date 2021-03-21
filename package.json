@@ -1,0 +1,12 @@
+{
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "deployd": "^1.0.0",
+    "dpd-clientlib": "^0.0.1",
+    "dpd-dashboard": "^0.0.1",
+    "express": "^4.17.1"
+  }
+}
