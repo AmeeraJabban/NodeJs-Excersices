@@ -23,8 +23,8 @@ router.put("/Edit", (req, res) => {
   var patient = patientSvc.Update(req.body);
   res.json(patient);
 });
-router.delete("/Delete/ID/:ID", (req, res) => {
-  var patient = patientSvc.Delete(req.params.ID);
+router.delete("/Delete", (req, res) => {
+  var patient = patientSvc.Delete(req.body.ID);
   res.json(patient);
 });
 module.exports = router;
